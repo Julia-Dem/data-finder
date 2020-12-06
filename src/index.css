@@ -1,0 +1,44 @@
+@import "~bootstrap";
+
+.table th, .table:not(:first-child) tr {
+    cursor: pointer;
+}
+
+.table th:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.btn:focus, .btn.focus, .page-link:focus {
+    box-shadow: none;
+}
+
+
+.alert-custom{
+    position: absolute;
+    left:0;
+    right: 0;
+    bottom: 102%;
+}
+
+.form-control:focus, .custom-select:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: none;
+}
+
+@media (max-width: 800px) {
+    .form-control__custom {
+        width: auto !important;
+        margin: 3px!important;
+        border-radius: 3px!important;
+    }
+}
+@media (max-width: 480px) {
+    .input-group__custom {
+        width: 100% !important;
+    }
+    .btn__custom{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+}
