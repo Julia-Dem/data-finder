@@ -13,9 +13,9 @@ import {Error} from "./Error"
 
 export const Table = () => {
     const {smallLoading, bigLoading, data, smallVolume, setInfo, addData, error} = useContext(Context)
-    const {sortedData, sortConfig, sortHandler} = useSortableData(data, smallVolume);
-    const {filteredData,  setFilterConfig , notFound} = useFilterableData(sortedData)
-    const {chunkData, chunkNumber, setChunkNumber, totalChunks} = useChunkedData(filteredData, smallVolume)
+    const {filteredData,  setFilterConfig , notFound} = useFilterableData(data, smallVolume)
+    const {sortedData, sortConfig, sortHandler} = useSortableData(filteredData);
+    const {chunkData, chunkNumber, setChunkNumber, totalChunks} = useChunkedData(sortedData, smallVolume)
     const headerNames = ['id', 'firstName', 'lastName', 'email', 'phone']
 
 

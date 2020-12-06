@@ -33,7 +33,6 @@ export const State = ({children}) => {
             dispatch({
                 type: SMALL_DATA,
                 payload: response.data,
-
             })
         }catch (e){
             setSmallLoading(false)
@@ -42,7 +41,7 @@ export const State = ({children}) => {
                 error: 'Error while loading data from server'
             })
         }
-        
+
     }
 
     const getBigData = async () => {

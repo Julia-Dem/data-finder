@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f3ce495-22f2-49dc-aa14-3cc428155b90" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="0f3ce495-22f2-49dc-aa14-3cc428155b90" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +9,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/Table.jsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1l6JRs8QZ1BqhynWZXquffaHvtN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606911608987</updated>
       <workItem from="1606911615764" duration="168653000" />
+      <workItem from="1607212887694" duration="2209000" />
     </task>
     <servers />
   </component>

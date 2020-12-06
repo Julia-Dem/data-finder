@@ -2,14 +2,13 @@ import {useMemo, useState} from 'react'
 import {getSortingArray} from "../utils";
 
 
-export const useSortableData = (data, smallVolume, config = {}) => {
+export const useSortableData = (data=[], config = {}) => {
     const [sortConfig, setSortConfig] = useState(config);
 
     const sortedData = useMemo(() => {
-        let sortedData = smallVolume ? [...data].slice(0, smallVolume) : [...data]
-        if (!sortConfig.type) return sortedData
-        return getSortingArray(sortedData, sortConfig.type, sortConfig.asc)
-    }, [data, sortConfig, smallVolume])
+        if (!sortConfig.type) return data
+        return getSortingArray([...data], sortConfig.type, sortConfig.asc)
+    }, [data, sortConfig])
 
     const sortHandler = (type) => {
         if (sortConfig.type === type) {
