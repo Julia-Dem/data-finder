@@ -1,5 +1,3 @@
-@import "~bootstrap";
-
 .table th, .table:not(:first-child) tr {
     cursor: pointer;
 }
